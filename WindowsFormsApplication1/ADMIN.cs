@@ -62,7 +62,7 @@ namespace WindowsFormsApplication1
                 pictureBox13.Hide();
                 button9.Hide();
 
-                
+
             }
         }
 
@@ -119,7 +119,9 @@ namespace WindowsFormsApplication1
                  date = rdr.GetString(5).ToString();
                  totalprice = rdr.GetString(6).ToString();
                  ordernum = rdr.GetString(7).ToString();
+                 //should've been placed directly to array rather than placing it in a variable
                  string[] row = { ordernum, transactionnum, fooditem, unitprice, quantity, crewlog, date, totalprice };
+
                  var listViewItem = new ListViewItem(row);
                  listView1.Items.Add(listViewItem);
              }
@@ -152,7 +154,7 @@ namespace WindowsFormsApplication1
                 groupBox1.Hide();
                 listView2.Hide();
 
-               
+
 
                 panelhistory.Hide();
                 listView4.Hide();
@@ -215,7 +217,7 @@ namespace WindowsFormsApplication1
                 panelhome.Hide();
                 pictureBox8.Hide();
 
-               
+
 
                 panelinvent.Hide();
                 groupBox2.Hide();
@@ -293,7 +295,7 @@ namespace WindowsFormsApplication1
                 groupBox2.Hide();
                 listView3.Hide();
 
-                
+
             }
             listView4.Items.Clear();
             string username, crewname, timein, timeout, date;
@@ -488,7 +490,7 @@ namespace WindowsFormsApplication1
 
 
         }
-        
+
         //inserts tiemout session
         private void label28_Click(object sender, EventArgs e)
         {
@@ -599,7 +601,7 @@ namespace WindowsFormsApplication1
 
             MySqlCommand setAccount = new MySqlCommand();
             setAccount.Connection = Conn;
-            
+
             setAccount.CommandText = "select * from users";
             MySqlDataReader rdr = setAccount.ExecuteReader();
             while (rdr.Read())
