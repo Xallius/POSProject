@@ -62,7 +62,7 @@ namespace WindowsFormsApplication1
                 pictureBox13.Hide();
                 button9.Hide();
 
-
+                
             }
         }
 
@@ -119,9 +119,7 @@ namespace WindowsFormsApplication1
                  date = rdr.GetString(5).ToString();
                  totalprice = rdr.GetString(6).ToString();
                  ordernum = rdr.GetString(7).ToString();
-                 //should've been placed directly to array rather than placing it in a variable
                  string[] row = { ordernum, transactionnum, fooditem, unitprice, quantity, crewlog, date, totalprice };
-
                  var listViewItem = new ListViewItem(row);
                  listView1.Items.Add(listViewItem);
              }
@@ -154,7 +152,7 @@ namespace WindowsFormsApplication1
                 groupBox1.Hide();
                 listView2.Hide();
 
-
+               
 
                 panelhistory.Hide();
                 listView4.Hide();
@@ -217,7 +215,7 @@ namespace WindowsFormsApplication1
                 panelhome.Hide();
                 pictureBox8.Hide();
 
-
+               
 
                 panelinvent.Hide();
                 groupBox2.Hide();
@@ -295,7 +293,7 @@ namespace WindowsFormsApplication1
                 groupBox2.Hide();
                 listView3.Hide();
 
-
+                
             }
             listView4.Items.Clear();
             string username, crewname, timein, timeout, date;
@@ -490,7 +488,7 @@ namespace WindowsFormsApplication1
 
 
         }
-
+        
         //inserts tiemout session
         private void label28_Click(object sender, EventArgs e)
         {
@@ -601,7 +599,7 @@ namespace WindowsFormsApplication1
 
             MySqlCommand setAccount = new MySqlCommand();
             setAccount.Connection = Conn;
-
+            
             setAccount.CommandText = "select * from users";
             MySqlDataReader rdr = setAccount.ExecuteReader();
             while (rdr.Read())
@@ -634,6 +632,34 @@ namespace WindowsFormsApplication1
             if (sBurgerExists == true)
             {
                 comboBox1.Text = "Signature Burgers";
+            }
+            string[] sSandwich = { "Basic Check-up Meal", "Emergency Check-up Meal", "Diagnostic Check-up Meal", "Executive Check-up Meal" };
+            string sSandwichString = comboBox2.Text.ToString();
+            bool sSandwichExists = sSandwich.Contains(sSandwichString);
+            if (sSandwichExists == true)
+            {
+                comboBox1.Text = "Signature Sandwich";
+            }
+            string[] pizzapasta = { "Hawaiian Pizza Medium", "Hawaiian Pizza Large", "Pepperoni Pizza Medium", "Pepperoni Pizza Large", "Carbonara", "Spaghetti" };
+            string pizzapastastring = comboBox2.Text.ToString();
+            bool pizzapastaexists = pizzapasta.Contains(pizzapastastring);
+            if (pizzapastaexists == true)
+            {
+                comboBox1.Text = "Pizza and Pasta";
+            }
+            string[] ricemeal = { "Cardio-pulmonary Meal", "Complete Bed Rest Meal" };
+            string ricemealstring = comboBox2.Text.ToString();
+            bool ricemealexists = ricemeal.Contains(ricemealstring);
+            if (ricemealexists == true)
+            {
+                comboBox1.Text = "Rice Meals";
+            }
+            string[] sides = { "Shoestring Fries", "Chicken Popcorn", "Beefy Cheesy Nachos", "Sweet and Spicy Wings" };
+            string sidesstring = comboBox2.Text.ToString();
+            bool sidesexists = sides.Contains(sidesstring);
+            if (sidesexists == true)
+            {
+                comboBox1.Text = "Sides";
             }
         }
     }

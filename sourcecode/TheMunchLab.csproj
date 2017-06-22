@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBB41413-84B5-4A7F-8BF7-6D69DB3B3420}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADMIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN.Designer.cs">
+      <DependentUpon>ADMIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CHECKOUT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CHECKOUT.Designer.cs">
+      <DependentUpon>CHECKOUT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MENU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU.Designer.cs">
+      <DependentUpon>MENU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ADMIN.resx">
+      <DependentUpon>ADMIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CHECKOUT.resx">
+      <DependentUpon>CHECKOUT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU.resx">
+      <DependentUpon>MENU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17990800_1746508328973379_8146633044857779381_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17990800_1746508328973379_8146633044857779381_n1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-User Filled-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-User Filled-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Lock Filled-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Lock Filled-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Home-70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18447215_1758930771064468_8580724039910162078_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18447215_1758930771064468_8580724039910162078_n1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18447215_1758930771064468_8580724039910162078_n2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17966110_1745743292383216_743938105682955077_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17966110_1745743292383216_743938105682955077_o1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17966110_1745743292383216_743938105682955077_o2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warning Shield-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warning Shield-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Accounting-70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Shopping Cart-70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Edit User Male-70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Order History-70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Exit-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Search-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Search Filled-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18447215_1758930771064468_8580724039910162078_n3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17861582_1745743055716573_2363378218888569316_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18447215_1758930771064468_8580724039910162078_n4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6243-illustration-of-a-blank-red-and-white-frame-border-pv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18815100_1768243603466518_4202903704771951774_o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18815100_1768243603466518_4202903704771951774_o1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Checked Checkbox Filled-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Checked Checkbox Filled-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Checked Checkbox Filled-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Ok Filled-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18839469_1768243640133181_7691737066379047510_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18839469_1768243640133181_7691737066379047510_o1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18839473_1768244650133080_363076881802886431_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18922576_1768244686799743_3547633694567586387_o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18922576_1768244686799743_3547633694567586387_o1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18922576_1768244686799743_3547633694567586387_o2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18922576_1768244686799743_3547633694567586387_o3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cucu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cucu1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cucu2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l_125a9_cans.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bottled-Water1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18814886_1768243273466551_1024923493703589746_o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6243-illustration-of-a-blank-red-and-white-frame-border-pv1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Ok Filled-301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basic life support.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advance life support.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vita signs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\myrocardial infraction.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diet as tolerated.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keep veins.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6243-illustration-of-a-blank-red-and-white-frame-border-pv2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18815023_1768243240133221_6579203919442542512_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18920896_1768243396799872_2885071720471826126_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18766485_1768243093466569_8188460801661124075_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-Login Filled-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KTLUyqy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0PHHvgs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feAcE2q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feAcE2q1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feAcE2q2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6243-illustration-of-a-blank-red-and-white-frame-border-pv3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3TDsmzS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\French Fries  by artemisphoto through free digitalphoto_net.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lh5ZFXi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kcq4Gz6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zqq7LBm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18447215_1758930771064468_8580724039910162078_n5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18447215_1758930771064468_8580724039910162078_n6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gguxk4M.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to6ASYI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gguxk4M1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
