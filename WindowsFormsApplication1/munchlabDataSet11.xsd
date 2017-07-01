@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="munchlabDataSet1" targetNamespace="http://tempuri.org/munchlabDataSet11.xsd" xmlns:mstns="http://tempuri.org/munchlabDataSet11.xsd" xmlns="http://tempuri.org/munchlabDataSet11.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="munchlabConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="munchlabConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsFormsApplication1.Properties.Settings.GlobalReference.Default.munchlabConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="inventoryTableAdapter" GeneratorDataComponentClassName="inventoryTableAdapter" Name="inventory" UserDataComponentName="inventoryTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="munchlabConnectionString (Settings)" DbObjectName="munchlab.inventory" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT inventoryitem, category, stocknum FROM inventory</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="menuTableAdapter" GeneratorDataComponentClassName="menuTableAdapter" Name="menu" UserDataComponentName="menuTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="munchlabConnectionString (Settings)" DbObjectName="munchlab.menu" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT itemnum, fooditem, amount, price, quantity FROM menu</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="salesinvoiceTableAdapter" GeneratorDataComponentClassName="salesinvoiceTableAdapter" Name="salesinvoice" UserDataComponentName="salesinvoiceTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="munchlabConnectionString (Settings)" DbObjectName="munchlab.salesinvoice" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT quantity, fooditem, total, unitprice, ordernum FROM salesinvoice</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="transactionnumberTableAdapter" GeneratorDataComponentClassName="transactionnumberTableAdapter" Name="transactionnumber" UserDataComponentName="transactionnumberTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="munchlabConnectionString (Settings)" DbObjectName="munchlab.transactionnumber" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT transactionnum FROM transactionnumber</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="usersTableAdapter" GeneratorDataComponentClassName="usersTableAdapter" Name="users" UserDataComponentName="usersTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="munchlabConnectionString (Settings)" DbObjectName="munchlab.users" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT username, password, usertype, fname, lname, address, contact FROM users</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="munchlabDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="munchlabDataSet1" msprop:Generator_UserDSName="munchlabDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="inventory" msprop:Generator_TableClassName="inventoryDataTable" msprop:Generator_TableVarName="tableinventory" msprop:Generator_TablePropName="inventory" msprop:Generator_RowDeletingName="inventoryRowDeleting" msprop:Generator_RowChangingName="inventoryRowChanging" msprop:Generator_RowEvHandlerName="inventoryRowChangeEventHandler" msprop:Generator_RowDeletedName="inventoryRowDeleted" msprop:Generator_UserTableName="inventory" msprop:Generator_RowChangedName="inventoryRowChanged" msprop:Generator_RowEvArgName="inventoryRowChangeEvent" msprop:Generator_RowClassName="inventoryRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="loginhistory">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="menu" msprop:Generator_TableClassName="menuDataTable" msprop:Generator_TableVarName="tablemenu" msprop:Generator_TablePropName="menu" msprop:Generator_RowDeletingName="menuRowDeleting" msprop:Generator_RowChangingName="menuRowChanging" msprop:Generator_RowEvHandlerName="menuRowChangeEventHandler" msprop:Generator_RowDeletedName="menuRowDeleted" msprop:Generator_UserTableName="menu" msprop:Generator_RowChangedName="menuRowChanged" msprop:Generator_RowEvArgName="menuRowChangeEvent" msprop:Generator_RowClassName="menuRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="salesinvoice" msprop:Generator_TableClassName="salesinvoiceDataTable" msprop:Generator_TableVarName="tablesalesinvoice" msprop:Generator_TablePropName="salesinvoice" msprop:Generator_RowDeletingName="salesinvoiceRowDeleting" msprop:Generator_RowChangingName="salesinvoiceRowChanging" msprop:Generator_RowEvHandlerName="salesinvoiceRowChangeEventHandler" msprop:Generator_RowDeletedName="salesinvoiceRowDeleted" msprop:Generator_UserTableName="salesinvoice" msprop:Generator_RowChangedName="salesinvoiceRowChanged" msprop:Generator_RowEvArgName="salesinvoiceRowChangeEvent" msprop:Generator_RowClassName="salesinvoiceRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="salesreport">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="transactionnumber" msprop:Generator_TableClassName="transactionnumberDataTable" msprop:Generator_TableVarName="tabletransactionnumber" msprop:Generator_TablePropName="transactionnumber" msprop:Generator_RowDeletingName="transactionnumberRowDeleting" msprop:Generator_RowChangingName="transactionnumberRowChanging" msprop:Generator_RowEvHandlerName="transactionnumberRowChangeEventHandler" msprop:Generator_RowDeletedName="transactionnumberRowDeleted" msprop:Generator_UserTableName="transactionnumber" msprop:Generator_RowChangedName="transactionnumberRowChanged" msprop:Generator_RowEvArgName="transactionnumberRowChangeEvent" msprop:Generator_RowClassName="transactionnumberRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="users" msprop:Generator_TableClassName="usersDataTable" msprop:Generator_TableVarName="tableusers" msprop:Generator_TablePropName="users" msprop:Generator_RowDeletingName="usersRowDeleting" msprop:Generator_RowChangingName="usersRowChanging" msprop:Generator_RowEvHandlerName="usersRowChangeEventHandler" msprop:Generator_RowDeletedName="usersRowDeleted" msprop:Generator_UserTableName="users" msprop:Generator_RowChangedName="usersRowChanged" msprop:Generator_RowEvArgName="usersRowChangeEvent" msprop:Generator_RowClassName="usersRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

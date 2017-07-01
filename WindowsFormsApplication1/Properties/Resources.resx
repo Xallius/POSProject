@@ -151,8 +151,8 @@
   <data name="icons8-Edit User Male-70" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-Edit User Male-70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="18839469_1768243640133181_7691737066379047510_o1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\18839469_1768243640133181_7691737066379047510_o1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bottled-Water1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bottled-Water1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BG1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,11 +244,17 @@
   <data name="18920896_1768243396799872_2885071720471826126_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\18920896_1768243396799872_2885071720471826126_o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8-Checkmark Filled-301" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-Checkmark Filled-301.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="18447215_1758930771064468_8580724039910162078_n3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\18447215_1758930771064468_8580724039910162078_n3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-Lock Filled-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-Lock Filled-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-Checkmark Filled-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-Checkmark Filled-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cucu1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cucu1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,11 +262,11 @@
   <data name="cucu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cucu2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bottled-Water1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bottled-Water1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="myrocardial infraction" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\myrocardial infraction.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gguxk4M1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gguxk4M1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="18922576_1768244686799743_3547633694567586387_o3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\18922576_1768244686799743_3547633694567586387_o3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -322,6 +328,9 @@
   <data name="18814886_1768243273466551_1024923493703589746_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\18814886_1768243273466551_1024923493703589746_o.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8-Shopping Cart-70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-Shopping Cart-70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -331,8 +340,8 @@
   <data name="17990800_1746508328973379_8146633044857779381_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\17990800_1746508328973379_8146633044857779381_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-Shopping Cart-70" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-Shopping Cart-70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="18839469_1768243640133181_7691737066379047510_o1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18839469_1768243640133181_7691737066379047510_o1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="17966110_1745743292383216_743938105682955077_o2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\17966110_1745743292383216_743938105682955077_o2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -355,7 +364,7 @@
   <data name="kcq4Gz6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kcq4Gz6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Gguxk4M1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gguxk4M1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-Search Filled-251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-Search Filled-251.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

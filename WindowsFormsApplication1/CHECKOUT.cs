@@ -11,6 +11,7 @@ using MySql.Data.MySqlClient;
 
 namespace WindowsFormsApplication1
 {
+
     public partial class CHECKOUT : Form
     {
         int change = 0;
@@ -25,10 +26,10 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
              int quantity;
-             
+
             double totald = 0;
             double total3 = 0;
-            
+
             string fooditem;
             string myConn = "Server=127.0.0.1;Database=munchlab;Uid=root;Pwd=root;";
             MySqlConnection Conn = new MySqlConnection(myConn);
@@ -52,8 +53,7 @@ namespace WindowsFormsApplication1
             }
             totald = total2 * 0.12;
             total3 = total2 - totald;
-            label8.Text = total3.ToString();
-            label9.Text = totald.ToString();
+            //label8.Text = total3.ToString();
             label10.Text = total2.ToString();
             rdr.Close();
             checkCMD.CommandText = "Select * from transactionnumber";
@@ -101,12 +101,19 @@ namespace WindowsFormsApplication1
                 change = money - total2;
             }
 
-            label11.Text = change.ToString();
+            if (change < 0)
+            {
+                label11.Text = "";
+            }
+            else
+            {
+                label11.Text = change.ToString();
+            }
         }
         private void button2_Click(object sender, EventArgs e)
         {
 
-            
+
             if (textBox1.Text == "")
             {
                 MessageBox.Show("please input a number");
@@ -114,19 +121,16 @@ namespace WindowsFormsApplication1
             }
             else if (change < 0)
             {
-                MessageBox.Show("kulang pa po");
+                MessageBox.Show("Inadequate amount of money.");
                 return;
             }
             string fooditem = "";
-            
+
             int quantity = 0, totalprice = 0;
-            string datenum = DateTime.Now.ToShortTimeString();
-            string datestring = DateTime.Now.ToShortDateString();
-            string date = datestring + " " + datenum;
             for (int i = 0; i < listView1.Items.Count; i++)
             {
-                
-                
+                int invValue = 0;
+                int newIntValue = 0;
                 string myConn = "Server=127.0.0.1;Database=munchlab;Uid=root;Pwd=root;";
                 MySqlConnection Conn = new MySqlConnection(myConn);
 
@@ -137,6 +141,15 @@ namespace WindowsFormsApplication1
                 MySqlCommand getUP = new MySqlCommand();
                 Conn.Open();
                 getUP.Connection = Conn;
+                getUP.CommandText = "select * from inventory where inventoryitem=@inventoryitem";
+                getUP.Parameters.AddWithValue("@inventoryitem", fooditem);
+                MySqlDataReader reader = getUP.ExecuteReader();
+                while (reader.Read())
+                {
+                    invValue = reader.GetInt32(2);
+                    newIntValue = invValue - quantity;
+                }
+                reader.Close();
                 getUP.CommandText = "select price from menu where fooditem=@fooditem";
                 getUP.Parameters.AddWithValue("@fooditem", fooditem);
                 MySqlDataReader rdr = getUP.ExecuteReader();
@@ -145,13 +158,18 @@ namespace WindowsFormsApplication1
                     unitprice = rdr.GetString("price").ToString();
                 }
                 rdr.Close();
+                
+                getUP.CommandText = "update inventory set stocknum=@stocknum where inventoryitem=@inventoryitem2";
+                getUP.Parameters.AddWithValue("@inventoryitem2", fooditem);
+                getUP.Parameters.AddWithValue("@stocknum", newIntValue);
+                getUP.ExecuteNonQuery();
+                
                 MySqlCommand insertSR = new MySqlCommand();
                 insertSR.Connection = Conn;
-                insertSR.CommandText = "insert into salesreport(transactionnum, quantity, totalprice, fooditem, date, crewlog, unitprice, ordernum)values(@transactionnum, @quantity, @totalprice, @fooditem, @date, @crewlog, @unitprice, @ordernum)";
+                insertSR.CommandText = "insert into salesreport(transactionnum, quantity, totalprice, fooditem, date, crewlog, unitprice, ordernum)values(@transactionnum, @quantity, @totalprice, @fooditem, CURDATE(), @crewlog, @unitprice, @ordernum)";
                 insertSR.Parameters.AddWithValue("@totalprice", totalprice);
                 insertSR.Parameters.AddWithValue("@quantity", quantity);
                 insertSR.Parameters.AddWithValue("@fooditem", fooditem);
-                insertSR.Parameters.AddWithValue("@date", date);
                 insertSR.Parameters.AddWithValue("@transactionnum", transactionnum);
                 insertSR.Parameters.AddWithValue("@crewlog", crewname);
                 insertSR.Parameters.AddWithValue("@unitprice", unitprice);
@@ -175,7 +193,7 @@ namespace WindowsFormsApplication1
             men.ShowDialog();
         }
 
-        
+
 
         private void button1_Click(object sender, EventArgs e)
         {

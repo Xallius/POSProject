@@ -593,6 +593,26 @@ namespace WindowsFormsApplication1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_Checkmark_Filled_30 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-Checkmark Filled-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_Checkmark_Filled_301 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-Checkmark Filled-301", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_Edit_User_Male_70 {
             get {
                 object obj = ResourceManager.GetObject("icons8-Edit User Male-70", resourceCulture);
@@ -696,6 +716,16 @@ namespace WindowsFormsApplication1.Properties {
         internal static System.Drawing.Bitmap icons8_Search_Filled_25 {
             get {
                 object obj = ResourceManager.GetObject("icons8-Search Filled-25", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_Search_Filled_251 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-Search Filled-251", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

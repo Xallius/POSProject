@@ -31,25 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ADMIN));
             this.label1 = new System.Windows.Forms.Label();
             this.panelhome = new System.Windows.Forms.Panel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.panelreport = new System.Windows.Forms.Panel();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeader21 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panelsettings = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button4 = new System.Windows.Forms.Button();
@@ -81,11 +62,10 @@
             this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -98,10 +78,8 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.panelhistory = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.listView4 = new System.Windows.Forms.ListView();
@@ -116,6 +94,27 @@
             this.label27 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label28 = new System.Windows.Forms.Label();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.columnHeader21 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.panelreport = new System.Windows.Forms.Panel();
+            this.label29 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
@@ -128,20 +127,19 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panelhome.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.panelreport.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panelsettings.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panelinvent.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.panelhistory.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            this.panelreport.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
@@ -154,6 +152,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -175,182 +179,6 @@
             this.panelhome.Name = "panelhome";
             this.panelhome.Size = new System.Drawing.Size(1207, 541);
             this.panelhome.TabIndex = 9;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Location = new System.Drawing.Point(172, 13);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(848, 484);
-            this.pictureBox8.TabIndex = 1;
-            this.pictureBox8.TabStop = false;
-            // 
-            // panelreport
-            // 
-            this.panelreport.Controls.Add(this.button10);
-            this.panelreport.Controls.Add(this.button2);
-            this.panelreport.Controls.Add(this.label4);
-            this.panelreport.Controls.Add(this.pictureBox9);
-            this.panelreport.Controls.Add(this.textBox2);
-            this.panelreport.Controls.Add(this.textBox1);
-            this.panelreport.Controls.Add(this.label3);
-            this.panelreport.Controls.Add(this.label2);
-            this.panelreport.Controls.Add(this.listView1);
-            this.panelreport.Location = new System.Drawing.Point(12, 166);
-            this.panelreport.Name = "panelreport";
-            this.panelreport.Size = new System.Drawing.Size(1207, 541);
-            this.panelreport.TabIndex = 2;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.Firebrick;
-            this.button10.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(35, 500);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(92, 33);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "PRINT";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Firebrick;
-            this.button2.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(148, 500);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(92, 33);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "REFRESH";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Franklin Gothic Book", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(880, 504);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(166, 26);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Total Amount: ₱\r\n";
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Location = new System.Drawing.Point(1153, 13);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox9.TabIndex = 5;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(963, 13);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(184, 26);
-            this.textBox2.TabIndex = 4;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(733, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 26);
-            this.textBox1.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(923, 13);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 24);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "to:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(622, 13);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 24);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Date from:";
-            // 
-            // listView1
-            // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader21,
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5,
-            this.columnHeader6,
-            this.columnHeader7});
-            this.listView1.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listView1.ForeColor = System.Drawing.Color.Black;
-            this.listView1.FullRowSelect = true;
-            this.listView1.Location = new System.Drawing.Point(16, 49);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1179, 441);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader21
-            // 
-            this.columnHeader21.Text = "Order #";
-            this.columnHeader21.Width = 90;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Transaction #";
-            this.columnHeader1.Width = 142;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Food Item";
-            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 182;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Unit Price";
-            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader3.Width = 157;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Quantity";
-            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader4.Width = 95;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Crew Incharge";
-            this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader5.Width = 181;
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Date";
-            this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader6.Width = 213;
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "Total Price";
-            this.columnHeader7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader7.Width = 151;
             // 
             // panelsettings
             // 
@@ -427,6 +255,7 @@
             this.button3.TabIndex = 18;
             this.button3.Text = "Create";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label12
             // 
@@ -497,6 +326,7 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(128, 168);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(209, 83);
@@ -694,6 +524,59 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "FOOD ENTRY";
             // 
+            // comboBox2
+            // 
+            this.comboBox2.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Advance Life Support Burger Meal",
+            "Basic Check-up Meal",
+            "Basic Life Support Burger Meal",
+            "Beefy Cheesy Nachos",
+            "Blueberry",
+            "Bottled Water",
+            "Buco Pandan",
+            "Carbonara",
+            "Cardio-pulmonary Meal",
+            "Chicken Popcorn",
+            "Chocolate",
+            "Coffee Crumble",
+            "Complete Bed Rest Meal",
+            "Cookies and Cream",
+            "Diagnostic Check-up Meal",
+            "Diet as Tolerated Burger Meal",
+            "Emergency Check-up Meal",
+            "Executive Check-up Meal",
+            "Green Apple",
+            "Green Cucumber",
+            "Hawaiian Pizza Large",
+            "Hawaiian Pizza Medium",
+            "Hokaido",
+            "Keep Veins Open Burger Meal",
+            "Lychee",
+            "Mango",
+            "Myocardial Infraction Burger Meal",
+            "Okinawa",
+            "Orange Juice",
+            "Pepperoni Pizza Large",
+            "Pepperoni Pizza Medium",
+            "Pink/Blue/Lemonade",
+            "Shoestring Fries",
+            "Softdrinks in Can",
+            "Spaghetti",
+            "Strawberry",
+            "Strawberry Milkshake",
+            "Sweet and Spicy Wings",
+            "Taro",
+            "Triple Chocolate",
+            "Vital Signs Stable Burger Meal",
+            "Wintermelon"});
+            this.comboBox2.Location = new System.Drawing.Point(126, 62);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(213, 32);
+            this.comboBox2.TabIndex = 35;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.Firebrick;
@@ -732,22 +615,6 @@
             this.button5.Text = "Delete";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Location = new System.Drawing.Point(243, 231);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(46, 52);
-            this.pictureBox11.TabIndex = 30;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Location = new System.Drawing.Point(74, 231);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(46, 52);
-            this.pictureBox10.TabIndex = 28;
-            this.pictureBox10.TabStop = false;
             // 
             // label24
             // 
@@ -832,6 +699,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Refreshments",
@@ -889,15 +757,6 @@
             this.label20.TabIndex = 2;
             this.label20.Text = "Food Item:";
             // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackColor = System.Drawing.Color.White;
-            this.pictureBox12.Location = new System.Drawing.Point(21, 297);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(305, 153);
-            this.pictureBox12.TabIndex = 31;
-            this.pictureBox12.TabStop = false;
-            // 
             // panelhistory
             // 
             this.panelhistory.Controls.Add(this.button9);
@@ -921,14 +780,7 @@
             this.button9.TabIndex = 11;
             this.button9.Text = "REFRESH";
             this.button9.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Location = new System.Drawing.Point(1171, 8);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(33, 31);
-            this.pictureBox13.TabIndex = 10;
-            this.pictureBox13.TabStop = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // textBox9
             // 
@@ -938,6 +790,7 @@
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(184, 26);
             this.textBox9.TabIndex = 8;
+            this.textBox9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox9_KeyDown);
             // 
             // label17
             // 
@@ -1067,9 +920,240 @@
             this.label28.Text = "LOG-OUT";
             this.label28.Click += new System.EventHandler(this.label28_Click);
             // 
+            // listView1
+            // 
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader21,
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4,
+            this.columnHeader5,
+            this.columnHeader6,
+            this.columnHeader7});
+            this.listView1.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView1.ForeColor = System.Drawing.Color.Black;
+            this.listView1.FullRowSelect = true;
+            this.listView1.Location = new System.Drawing.Point(16, 49);
+            this.listView1.MultiSelect = false;
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(1179, 441);
+            this.listView1.Sorting = System.Windows.Forms.SortOrder.Descending;
+            this.listView1.TabIndex = 0;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader21
+            // 
+            this.columnHeader21.Text = "Order #";
+            this.columnHeader21.Width = 90;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Transaction #";
+            this.columnHeader1.Width = 142;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Food Item";
+            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader2.Width = 182;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Unit Price";
+            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader3.Width = 157;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Quantity";
+            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader4.Width = 95;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Crew Incharge";
+            this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader5.Width = 181;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Date";
+            this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader6.Width = 213;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "Total Price";
+            this.columnHeader7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader7.Width = 151;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(543, 14);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(105, 24);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Date from:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Franklin Gothic Book", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(884, 15);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(34, 24);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "to:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Franklin Gothic Book", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(950, 500);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(166, 26);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Total Amount: ₱\r\n";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Firebrick;
+            this.button2.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(28, 497);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(92, 33);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "REFRESH";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"});
+            this.comboBox3.Location = new System.Drawing.Point(648, 10);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(107, 29);
+            this.comboBox3.TabIndex = 11;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"});
+            this.comboBox8.Location = new System.Drawing.Point(924, 8);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(104, 29);
+            this.comboBox8.TabIndex = 16;
+            // 
+            // panelreport
+            // 
+            this.panelreport.Controls.Add(this.pictureBox9);
+            this.panelreport.Controls.Add(this.label29);
+            this.panelreport.Controls.Add(this.textBox10);
+            this.panelreport.Controls.Add(this.textBox8);
+            this.panelreport.Controls.Add(this.textBox2);
+            this.panelreport.Controls.Add(this.textBox1);
+            this.panelreport.Controls.Add(this.comboBox8);
+            this.panelreport.Controls.Add(this.comboBox3);
+            this.panelreport.Controls.Add(this.button2);
+            this.panelreport.Controls.Add(this.label4);
+            this.panelreport.Controls.Add(this.label3);
+            this.panelreport.Controls.Add(this.label2);
+            this.panelreport.Controls.Add(this.listView1);
+            this.panelreport.Location = new System.Drawing.Point(12, 166);
+            this.panelreport.Name = "panelreport";
+            this.panelreport.Size = new System.Drawing.Size(1207, 541);
+            this.panelreport.TabIndex = 2;
+            // 
+            // label29
+            // 
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.Font = new System.Drawing.Font("Franklin Gothic Book", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.White;
+            this.label29.Location = new System.Drawing.Point(1111, 500);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(74, 26);
+            this.label29.TabIndex = 19;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.Location = new System.Drawing.Point(1039, 11);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(41, 26);
+            this.textBox10.TabIndex = 17;
+            this.textBox10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox10_KeyPress);
+            // 
+            // textBox8
+            // 
+            this.textBox8.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.Location = new System.Drawing.Point(761, 12);
+            this.textBox8.MaxLength = 2;
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(41, 26);
+            this.textBox8.TabIndex = 14;
+            this.textBox8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox8_KeyPress);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(808, 12);
+            this.textBox2.MaxLength = 4;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(69, 26);
+            this.textBox2.TabIndex = 15;
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Franklin Gothic Book", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(1086, 10);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(62, 26);
+            this.textBox1.TabIndex = 18;
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+            // 
             // pictureBox18
             // 
             this.pictureBox18.BackColor = System.Drawing.Color.White;
+            this.pictureBox18.Image = global::WindowsFormsApplication1.Properties.Resources.icons8_Exit_20;
             this.pictureBox18.Location = new System.Drawing.Point(1194, 55);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(25, 32);
@@ -1079,6 +1163,7 @@
             // pictureBox17
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.White;
+            this.pictureBox17.Image = global::WindowsFormsApplication1.Properties.Resources.icons8_Accounting_70;
             this.pictureBox17.Location = new System.Drawing.Point(203, 29);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(80, 77);
@@ -1089,6 +1174,7 @@
             // pictureBox16
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.White;
+            this.pictureBox16.Image = global::WindowsFormsApplication1.Properties.Resources.icons8_Shopping_Cart_70;
             this.pictureBox16.Location = new System.Drawing.Point(376, 29);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(80, 77);
@@ -1099,9 +1185,10 @@
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.White;
-            this.pictureBox15.Location = new System.Drawing.Point(778, 29);
+            this.pictureBox15.Image = global::WindowsFormsApplication1.Properties.Resources.icons8_Edit_User_Male_70;
+            this.pictureBox15.Location = new System.Drawing.Point(767, 29);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(80, 77);
+            this.pictureBox15.Size = new System.Drawing.Size(74, 77);
             this.pictureBox15.TabIndex = 11;
             this.pictureBox15.TabStop = false;
             this.pictureBox15.Click += new System.EventHandler(this.pictureBox15_Click);
@@ -1109,6 +1196,7 @@
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.White;
+            this.pictureBox14.Image = global::WindowsFormsApplication1.Properties.Resources.icons8_Order_History_70;
             this.pictureBox14.Location = new System.Drawing.Point(986, 29);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(80, 77);
@@ -1119,6 +1207,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.White;
+            this.pictureBox3.Image = global::WindowsFormsApplication1.Properties.Resources._18447215_1758930771064468_8580724039910162078_n5;
             this.pictureBox3.Location = new System.Drawing.Point(524, -3);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(164, 163);
@@ -1160,72 +1249,79 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.Image = global::WindowsFormsApplication1.Properties.Resources.icons8_Home_70;
             this.pictureBox1.Location = new System.Drawing.Point(47, 29);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(80, 77);
+            this.pictureBox1.Size = new System.Drawing.Size(72, 77);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = global::WindowsFormsApplication1.Properties.Resources.BG3;
             this.pictureBox2.Location = new System.Drawing.Point(-8, -3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1244, 163);
+            this.pictureBox2.Size = new System.Drawing.Size(1250, 163);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
-            // comboBox2
+            // pictureBox13
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Advance Life Support Burger Meal",
-            "Basic Check-up Meal",
-            "Basic Life Support Burger Meal",
-            "Beefy Cheesy Nachos",
-            "Blueberry",
-            "Bottled Water",
-            "Buco Pandan",
-            "Carbonara",
-            "Cardio-pulmonary Meal",
-            "Chicken Popcorn",
-            "Chocolate",
-            "Coffee Crumble",
-            "Complete Bed Rest Meal",
-            "Cookies and Cream",
-            "Diagnostic Check-up Meal",
-            "Diet as Tolerated Burger Meal",
-            "Emergency Check-up Meal",
-            "Executive Check-up Meal",
-            "Green Apple",
-            "Green Cucumber",
-            "Hawaiian Pizza Large",
-            "Hawaiian Pizza Medium",
-            "Hokaido",
-            "Keep Veins Open Burger Meal",
-            "Lychee",
-            "Mango",
-            "Myocardial Infraction Burger Meal",
-            "Okinawa",
-            "Orange Juice",
-            "Pepperoni Pizza Large",
-            "Pepperoni Pizza Medium",
-            "Pink/Blue/Lemonade",
-            "Shoestring Fries",
-            "Softdrinks in Can",
-            "Spaghetti",
-            "Strawberry",
-            "Strawberry Milkshake",
-            "Sweet and Spicy Wings",
-            "Taro",
-            "Triple Chocolate",
-            "Vital Signs Stable Burger Meal",
-            "Wintermelon"});
-            this.comboBox2.Location = new System.Drawing.Point(126, 62);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(213, 32);
-            this.comboBox2.TabIndex = 35;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.pictureBox13.BackColor = System.Drawing.Color.Brown;
+            this.pictureBox13.Image = global::WindowsFormsApplication1.Properties.Resources.icons8_Search_Filled_251;
+            this.pictureBox13.Location = new System.Drawing.Point(1171, 8);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(33, 31);
+            this.pictureBox13.TabIndex = 10;
+            this.pictureBox13.TabStop = false;
+            this.pictureBox13.Click += new System.EventHandler(this.pictureBox13_Click);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::WindowsFormsApplication1.Properties.Resources._17966110_1745743292383216_743938105682955077_o2;
+            this.pictureBox8.Location = new System.Drawing.Point(172, 13);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(848, 484);
+            this.pictureBox8.TabIndex = 1;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::WindowsFormsApplication1.Properties.Resources.Warning_Shield_48;
+            this.pictureBox11.Location = new System.Drawing.Point(243, 231);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(46, 52);
+            this.pictureBox11.TabIndex = 30;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::WindowsFormsApplication1.Properties.Resources.Warning_Shield_48;
+            this.pictureBox10.Location = new System.Drawing.Point(74, 231);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(46, 52);
+            this.pictureBox10.TabIndex = 28;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackColor = System.Drawing.Color.White;
+            this.pictureBox12.Location = new System.Drawing.Point(21, 297);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(305, 153);
+            this.pictureBox12.TabIndex = 31;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::WindowsFormsApplication1.Properties.Resources.icons8_Search_Filled_251;
+            this.pictureBox9.Location = new System.Drawing.Point(1154, 8);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(32, 29);
+            this.pictureBox9.TabIndex = 20;
+            this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click_1);
             // 
             // ADMIN
             // 
@@ -1252,11 +1348,11 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.panelinvent);
-            this.Controls.Add(this.panelhistory);
             this.Controls.Add(this.panelhome);
             this.Controls.Add(this.panelreport);
             this.Controls.Add(this.panelsettings);
+            this.Controls.Add(this.panelinvent);
+            this.Controls.Add(this.panelhistory);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ADMIN";
@@ -1264,22 +1360,16 @@
             this.Text = "ADMIN";
             this.TransparencyKey = System.Drawing.Color.Maroon;
             this.panelhome.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.panelreport.ResumeLayout(false);
-            this.panelreport.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panelsettings.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panelinvent.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.panelhistory.ResumeLayout(false);
             this.panelhistory.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            this.panelreport.ResumeLayout(false);
+            this.panelreport.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
@@ -1292,6 +1382,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1309,21 +1405,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelhome;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Panel panelreport;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panelsettings;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label12;
@@ -1387,8 +1468,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
@@ -1397,8 +1476,29 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button update;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.ColumnHeader columnHeader21;
         private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ColumnHeader columnHeader21;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.Panel panelreport;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.PictureBox pictureBox9;
 
     }
 }
